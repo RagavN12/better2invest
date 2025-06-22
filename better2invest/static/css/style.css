@@ -1,0 +1,103 @@
+ body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f0f2f5; /* Light gray background */
+            color: #333;
+        }
+        .navbar {
+            background-color: #000; /* Black navbar */
+            border-bottom: 3px solid #28a745; /* Green border for accent */
+        }
+        .navbar-brand {
+            color: #fff !important;
+            font-weight: 700;
+            display: flex;
+            align-items: center;
+        }
+        .navbar-brand img {
+            height: 40px; /* Adjust height as needed */
+            margin-right: 10px;
+            border-radius: 8px; /* Rounded corners for the icon */
+        }
+        .nav-link {
+            color: #fff !important;
+            font-weight: 600;
+            transition: color 0.3s ease;
+        }
+        .nav-link:hover {
+            color: #28a745 !important; /* Green on hover */
+        }
+        .hero-section {
+            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://placehold.co/1920x800/28a745/ffffff?text=Invest+in+Your+Future') no-repeat center center / cover;
+            color: #fff;
+            padding: 100px 0;
+            text-align: center;
+            border-bottom-left-radius: 50px;
+            border-bottom-right-radius: 50px;
+        }
+        .hero-section h1 {
+            font-size: 3.5rem;
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+        .hero-section p {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+        }
+        .btn-primary {
+            background-color: #28a745; /* Green button */
+            border-color: #28a745;
+            font-weight: 600;
+            padding: 12px 30px;
+            border-radius: 25px; /* Pill-shaped button */
+            transition: background-color 0.3s ease, border-color 0.3s ease;
+        }
+        .btn-primary:hover {
+            background-color: #218838; /* Darker green on hover */
+            border-color: #1e7e34;
+        }
+        .section-padding {
+            padding: 80px 0;
+        }
+        .card {
+            border: none;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+        }
+        .card-title {
+            color: #28a745;
+            font-weight: 600;
+        }
+        .feature-icon {
+            font-size: 3rem;
+            color: #28a745;
+            margin-bottom: 20px;
+        }
+        .footer {
+            background-color: #000; /* Black footer */
+            color: #fff;
+            padding: 40px 0;
+            border-top: 3px solid #28a745; /* Green border for accent */
+        }
+        .footer a {
+            color: #fff;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        .footer a:hover {
+            color: #28a745;
+        }
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            .hero-section h1 {
+                font-size: 2.5rem;
+            }
+            .hero-section p {
+                font-size: 1rem;
+            }
+        }
+    
